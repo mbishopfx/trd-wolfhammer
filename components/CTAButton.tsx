@@ -25,6 +25,7 @@ export const CTAButton: React.FC<CTAButtonProps> = ({
     primary: 'bg-emergency text-white hover:bg-emergency-dark',
     secondary: 'bg-trust text-white hover:bg-trust-dark',
     outline: 'border-2 border-emergency text-emergency hover:bg-emergency hover:text-white',
+    white: 'bg-white text-black border-2 border-gray-200 hover:bg-gray-50',
   };
 
   const sizeClasses = {

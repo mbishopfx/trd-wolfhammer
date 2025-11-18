@@ -19,13 +19,13 @@ export const Navigation: React.FC = () => {
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.png"
-              alt="Emergency Plumbing Services Logo"
+              alt="WOLFHAMMER PLUMBING Logo"
               width={60}
               height={60}
               className="h-14 w-14"
             />
-            <span className="ml-3 text-xl font-bold text-professional hidden sm:block">
-              Emergency Plumbing
+            <span className="ml-3 text-lg sm:text-xl font-bold text-black">
+              WOLFHAMMER PLUMBING
             </span>
           </Link>
 

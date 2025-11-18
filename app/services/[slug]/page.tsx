@@ -84,7 +84,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </p>
             <a
               href={`tel:${BUSINESS_INFO.phone}`}
-              className="bg-white text-black px-4 py-2 rounded-full font-bold text-sm hover:bg-gray-100 transition-all"
+              className="bg-white !text-black px-4 py-2 rounded-full font-bold text-sm hover:bg-gray-100 transition-all"
             >
               {BUSINESS_INFO.phone}
             </a>
@@ -309,7 +309,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                   variant="primary"
                   size="lg"
                   icon={<PhoneRingingIcon size={24} />}
-                  className="bg-white text-black hover:bg-gray-100"
+                  className="bg-white !text-black hover:bg-gray-100"
                 >
                   {BUSINESS_INFO.phone}
                 </CTAButton>

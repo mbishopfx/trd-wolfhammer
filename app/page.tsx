@@ -63,7 +63,7 @@ export default function HomePage() {
                   href={`sms:${BUSINESS_INFO.sms}`}
                   variant="outline"
                   size="lg"
-                  className="bg-white text-black hover:bg-gray-100 border-white"
+                  className="bg-white !text-black hover:bg-gray-100 border-white"
                 >
                   Text Us
                 </CTAButton>
@@ -364,7 +364,7 @@ export default function HomePage() {
               href="/services/home-protection-plan"
               variant="primary"
               size="lg"
-              className="bg-white text-black hover:bg-gray-100"
+              className="bg-white !text-black hover:bg-gray-100"
             >
               Learn More About Protection Plans
             </CTAButton>
@@ -388,7 +388,7 @@ export default function HomePage() {
                 variant="primary"
                 size="lg"
                 icon={<PhoneRingingIcon size={24} />}
-                className="bg-white text-black hover:bg-gray-100"
+                className="bg-white !text-black hover:bg-gray-100"
               >
                 {BUSINESS_INFO.phone}
               </CTAButton>

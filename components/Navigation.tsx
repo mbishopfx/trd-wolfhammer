@@ -22,7 +22,7 @@ export const Navigation: React.FC = () => {
               alt="Emergency Plumbing Services Logo"
               width={60}
               height={60}
-              className="h-14 w-14 hidden sm:block"
+              className="h-14 w-14"
             />
             <span className="ml-3 text-xl font-bold text-professional hidden sm:block">
               Emergency Plumbing

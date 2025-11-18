@@ -23,7 +23,7 @@ export const EmergencyBar: React.FC = () => {
         </div>
         <button
           onClick={handleCall}
-          className="flex items-center gap-2 bg-white text-black px-4 py-1.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-all transform hover:scale-105 animate-pulse-emergency"
+          className="flex items-center gap-2 bg-white !text-black px-4 py-1.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-all transform hover:scale-105 animate-pulse-emergency"
         >
           <PhoneRingingIcon size={18} className="text-emergency" />
           <span>{BUSINESS_INFO.phone}</span>

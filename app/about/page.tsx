@@ -248,7 +248,7 @@ export default function AboutPage() {
                 variant="primary"
                 size="lg"
                 icon={<PhoneRingingIcon size={24} />}
-                className="bg-white text-black hover:bg-gray-100"
+                className="bg-white !text-black hover:bg-gray-100"
               >
                 {BUSINESS_INFO.phone}
               </CTAButton>

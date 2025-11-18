@@ -138,7 +138,7 @@ export default function AdminLayout({
             <h1 className="text-2xl font-bold">Admin Dashboard</h1>
             <button
               onClick={handleLogout}
-              className="bg-white text-black px-4 py-2 rounded-full font-semibold text-sm hover:bg-gray-100 transition-all"
+              className="bg-white !text-black px-4 py-2 rounded-full font-semibold text-sm hover:bg-gray-100 transition-all"
             >
               Logout
             </button>
